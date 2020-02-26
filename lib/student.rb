@@ -70,7 +70,7 @@ class Student
       LIMIT ?
     SQL
     
-    DB[:conn].execute(sql, number)
+    DB[:conn].execute(sql, number).map do |
   end 
   
   def save
