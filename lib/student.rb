@@ -18,7 +18,7 @@ class Student
         FROM songs 
       SQL
       
-      DB[:conn].execute(sql)
+      DB[:conn].execute(sql).map
   end
 
   def self.find_by_name(name)
