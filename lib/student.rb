@@ -20,7 +20,8 @@ class Student
     # return a new instance of the Student class
     sql = <<-SQL
         SELECT *
-        
+        FROM songs 
+        WHERE name =
       SQL
   end
   
