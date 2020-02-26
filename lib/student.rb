@@ -68,6 +68,8 @@ class Student
       FROM students 
       WHERE grade = ? 
     SQL
+    
+    DB[:conn]
   end 
   
   def save
